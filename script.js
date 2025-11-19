@@ -1,3 +1,18 @@
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+
+
+
 // Carousel functionality (without dots)
 let currentSlide = 0;
 const track = document.querySelector('.carousel-track');

@@ -10,12 +10,17 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
   <title>Monticello</title>
 </head>
 
 <body>
+
+
+
   <header class="header">
     <div class="navigation">
       <a href=".">
@@ -52,9 +57,53 @@
       </div>
 
     </div>
-    <div class="heading">
-      <img src="images/Heading.svg" alt="">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images/header-bg.svg" alt="">
+          <hgroup>
+            <h2>SIMPLE & MODERN</h2>
+            <h3>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+          </hgroup>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/header-bg.svg" alt="">
+          <hgroup>
+            <h2>ELEGANT DESIGN</h2>
+            <h3>CRAFTING SPACES THAT INSPIRE LIVING</h3>
+          </hgroup>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/header-bg.svg" alt="">
+          <hgroup>
+            <h2>SUSTAINABLE FUTURE</h2>
+            <h3>BUILDING WITH PURPOSE FOR GENERATIONS</h3>
+          </hgroup>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/header-bg.svg" alt="">
+          <hgroup>
+            <h2>ICONIC STRUCTURES</h2>
+            <h3>LANDMARKS THAT DEFINE OUR SKYLINE</h3>
+          </hgroup>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/header-bg.svg" alt="">
+          <hgroup>
+            <h2>ARCHITECTURAL EXCELLENCE</h2>
+            <h3>INNOVATION MEETS TIMELESS DESIGN</h3>
+          </hgroup>
+        </div>
+      </div>
+      <!-- If we need pagination -->
     </div>
+    <div class="swiper-pagination"></div>
+    <!--     <div class="heading">
+      <img src="images/Heading.svg" alt="">
+    </div> -->
   </header>
 
   <main>
